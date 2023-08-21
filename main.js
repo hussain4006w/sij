@@ -92,13 +92,13 @@ function car1_up() {
 	}
 }
 
-function car1_down()
+function car1_down(){
 if (car1_y <= 500) {
 	car1_y = car1_y + 10; console.log("When down arrow is pressed, uploadBackground(); x = " + car1_x + "| y = " + car1_y);
 	uploadcar1();
 	uploadcar2();
 }
-
+	}
 function car1_left() {
 	if (car1_x >= 0) {
 		car1_x = car1_x = 10;
